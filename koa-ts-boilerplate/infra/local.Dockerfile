@@ -10,7 +10,7 @@ WORKDIR /home/node/app
 
 # Install packages
 COPY yarn.lock *.json ./
-COPY .local_env ./.env
+COPY .local_env ./
 RUN yarn install
 
 # Set user

@@ -11,11 +11,12 @@ Pursue the following flexibility:
 - Allows for migration to different architectures.
 - Allows for migration to different frameworks or platforms.
 
-## 목적
+## Purpose
 We pursue the following design principles:
 
 - Modules within the same layer do not reference each other.
 - Low-level modules do not reference high-level modules.
 - It does not hinder the reusability and testability of service modules.
+
 ## Diagram
 ![](./docs/flexible-3tier-layered-architecture.png)
