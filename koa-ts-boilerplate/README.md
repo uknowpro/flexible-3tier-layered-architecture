@@ -1,0 +1,19 @@
+# Koa Typescript boilerplate on three tier layered architecture
+
+## Requirements
+
+| Type                  | Version              |
+|:---------------------|:-----------------|
+| `OS`                 | Linux(Ubuntu 22.04) |
+| `Docker`             | 24.0.5 |
+| `Docker-compose`     | 1.29.2 |
+| `Python`             | 3.10.12
+| `Node.js`            | 20.8.0 (LTS) |
+| `npm`            | 10.1.0 |
+| `yarn`            | 1.22.19 |
+
+## Run on local
+```
+$ yarn install
+$ yarn start:local
+```

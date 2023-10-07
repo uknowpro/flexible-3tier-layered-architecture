@@ -1,0 +1,9 @@
+node_modules
+Dockerfile
+.dockerignore
+.github
+dist
+local-dc.yml
+local.Dockerfile
+LICENSE
+README.md

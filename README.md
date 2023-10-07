@@ -19,4 +19,4 @@ Layered Architecture를 기반으로 고품질 코드를 추구하는 아키텍�
 - 하나, 서비스 모듈의 재사용성과 테스트 용이성을 저해하지 않습니다.
 
 ## Diagram
-![](./flexible-3tier-layered-architecture.png)
+![](./docs/flexible-3tier-layered-architecture.png)
