@@ -1,4 +1,5 @@
-# Koa Typescript boilerplate on three tier layered architecture
+# Koa Typescript boilerplate 
+- on three tier layered architecture
 
 ## Requirements
 

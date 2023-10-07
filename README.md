@@ -1,22 +1,21 @@
 # Flexible 3Tier Layered Architecture
-Layered Architecture를 기반으로 고품질 코드를 추구하는 아키텍처입니다. 
+This architecture strives for high-quality code based on the Layered Architecture.
 
-비록, 완벽하지 않더라도 완벽함을 추구합니다.
+Even though it may not be perfect, it seeks perfection.
 
-중요한 것은 현재보다 나은 내일이며, 완벽함을 추구하기에 완벽함에 수렴하게 됩니다.
+The key is to aim for a better tomorrow than today and converge towards perfection in the pursuit of perfection.
 
 ## WHY FLEXIBLE
-아래의 유연함을 추구합니다.
+Pursue the following flexibility:
 
-- 하나, 다른 아키텍처로의 이관이 가능합니다.
-- 하나, 다른 프레임워크 또는 다른 플랫폼으로의 이관이 가능합니다.
+- Allows for migration to different architectures.
+- Allows for migration to different frameworks or platforms.
 
 ## 목적
-아래의 설계방향을 추구합니다.
+We pursue the following design principles:
 
-- 하나, 동일 Layer의 모듈들은 서로를 참조하지 않습니다.
-- 하나, 저수준 모듈이 고수준 모듈을 참조하지 않습니다.
-- 하나, 서비스 모듈의 재사용성과 테스트 용이성을 저해하지 않습니다.
-
+- Modules within the same layer do not reference each other.
+- Low-level modules do not reference high-level modules.
+- It does not hinder the reusability and testability of service modules.
 ## Diagram
 ![](./docs/flexible-3tier-layered-architecture.png)
