@@ -5,9 +5,13 @@ import { GetHealthService } from '../../services';
 
 @tagsAll(['Health'])
 export default class {
-  constructor(private readonly getHealthService: GetHealthService) {}
   @request('get', '/health')
-  public async getHealth(ctx: BaseContext): Promise<undefined> {
-    ctx.body = this.getHealthService.getHealth();
+  public static async getHealth(ctx: BaseContext): Promise<undefined> {
+    const getHealthService = new GetHealthService();
+    const health = await getHealthService.health();
+    Object.assign(ctx, {
+      status: 204,
+      body: health,
+    });
   }
 }

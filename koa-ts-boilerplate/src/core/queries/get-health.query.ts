@@ -1,3 +1,3 @@
 export interface GetHealthQuery {
-  getHealth(): Promise<undefined>;
+  health(): Promise<undefined>;
 }
