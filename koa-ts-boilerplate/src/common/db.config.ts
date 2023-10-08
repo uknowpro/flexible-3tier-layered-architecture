@@ -1,5 +1,5 @@
-import { join } from "path";
-import { Options } from "@mikro-orm/core";
+import { join } from 'path';
+import { Options } from '@mikro-orm/core';
 
 import * as entities from '../core/entities';
 
@@ -142,5 +142,5 @@ const configs = {
   } as Options,
 };
 
-const config = configs[process.env.NODE_ENV || "local"];
+const config = configs[process.env.NODE_ENV || 'local'];
 export default () => config;

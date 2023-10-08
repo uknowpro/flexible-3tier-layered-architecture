@@ -1,1 +1,1 @@
-export { default as GetHealthService } from "./health.service";
+export { default as GetHealthService } from './health.service';
