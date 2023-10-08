@@ -12,7 +12,7 @@ Pursue the following flexibility:
 - Allows for migration to different frameworks or platforms.
 
 ## Purpose
-We pursue the following design principles:
+Pursue the following design principles:
 
 - Modules within the same layer do not reference each other.
 - Low-level modules do not reference high-level modules.

@@ -1,1 +1,1 @@
-export { default as health } from './http-controllers/health.controller';
+export { default as HealthHttpController } from "./http-controllers/health.http.controller";

@@ -1,10 +1,10 @@
-import { Context } from 'koa';
-import { config } from './config';
-import { transports, format } from 'winston';
+import { Context } from "koa";
+import { config } from "./config";
+import { transports, format } from "winston";
 
 const logger = (winston: any): any  => {
     winston.configure({
-        level: config.debugLogging ? 'debug' : 'info',
+        level: config.debugLogging ? "debug" : "info",
         transports: [
             new transports.Console({
                 format: format.simple()
@@ -22,11 +22,11 @@ const logger = (winston: any): any  => {
         const ms = new Date().getTime() - start;
         let logLevel: string;
         if (ctx.status >= 500) {
-            logLevel = 'error';
+            logLevel = "error";
         } else if (ctx.status >= 400) {
-            logLevel = 'warn';
+            logLevel = "warn";
         } else {
-            logLevel = 'info';
+            logLevel = "info";
         }
         const msg = `${ctx.method} ${ctx.originalUrl} ${ctx.status} ${ms}ms`;
         winston.log(logLevel, msg);

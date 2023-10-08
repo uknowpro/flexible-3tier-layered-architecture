@@ -1,13 +1,13 @@
-import Koa from 'koa';
-import bodyParser from 'koa-bodyparser';
-import helmet from 'koa-helmet';
-import cors from '@koa/cors';
-import winston from 'winston';
-import 'reflect-metadata';
+import Koa from "koa";
+import bodyParser from "koa-bodyparser";
+import helmet from "koa-helmet";
+import cors from "@koa/cors";
+import winston from "winston";
+import "reflect-metadata";
 
-import { logger } from './common';
-import { config } from './common';
-import { controllerRouter } from './routes';
+import { logger } from "./common";
+import { config } from "./common";
+import { controllerRouter } from "./routes";
 
 async function bootstrap() {
     const app = new Koa();

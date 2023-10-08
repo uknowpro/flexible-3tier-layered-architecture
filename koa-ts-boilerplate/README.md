@@ -18,3 +18,13 @@
 $ yarn install
 $ yarn start:local
 ```
+
+## Run on docker
+```
+$ docker-compose -f infra/local.docker-compose.yaml up -d --build
+```
+
+### Migration
+```
+$ docker exec layered_koa_server /bin/sh -c "yarn run migration:up"
+```

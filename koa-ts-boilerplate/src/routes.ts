@@ -1,8 +1,13 @@
-import { SwaggerRouter } from 'koa-swagger-decorator';
-import { health } from './controllers';
+import { SwaggerRouter } from "koa-swagger-decorator";
+
+import { HealthHttpController } from "./controllers";
+
+import { GetHealthService } from "./services";
 
 const controllerRouter = new SwaggerRouter();
 
-controllerRouter.get('/health', health.getHealth);
+const healthHttpController = new HealthHttpController(new GetHealthService());
+
+controllerRouter.get("/health", healthHttpController.getHealth);
 
 export { controllerRouter };
