@@ -4,7 +4,7 @@ import { Entity, PrimaryKey, Property } from '@mikro-orm/core';
   tableName: 'users',
   comment: 'user table',
 })
-export default class {
+export class User {
   @PrimaryKey()
   id: number;
 

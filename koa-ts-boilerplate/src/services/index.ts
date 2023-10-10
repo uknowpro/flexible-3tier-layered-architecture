@@ -1,1 +1,3 @@
-export { default as GetHealthService } from './health.service';
+import { GetHealthService } from './health.service';
+
+export const getHealthService = GetHealthService.getInstance();

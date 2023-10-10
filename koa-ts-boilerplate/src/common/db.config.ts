@@ -143,4 +143,4 @@ const configs = {
 };
 
 const config = configs[process.env.NODE_ENV || 'local'];
-export default () => config;
+export const dbConfig = config;
