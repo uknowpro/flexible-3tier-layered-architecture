@@ -19,4 +19,4 @@ Pursue the following design principles:
 - It does not hinder the reusability and testability of service modules.
 
 ## Diagram
-![](./docs/flexible-3tier-layered-architecture.png)
+![](./doc/flexible-3tier-layered-architecture.png)

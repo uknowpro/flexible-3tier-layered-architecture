@@ -23,4 +23,4 @@ COPY --chown=node:node . .
 ENV PORT=3000
 EXPOSE 3000
 
-CMD [ "yarn", "start:local" ]
+CMD [ "yarn", "start" ]
