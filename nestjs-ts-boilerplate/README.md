@@ -1,4 +1,4 @@
-# ~~NestJS~~ Typescript boilerplate 
+# NestJS Typescript boilerplate 
 - on three tier layered architecture
 
 ## Requirements
