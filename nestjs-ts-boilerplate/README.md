@@ -9,7 +9,7 @@
 | `Docker`             | 24.0.5 |
 | `Docker-compose`     | 1.29.2 |
 | `Python`             | 3.10.12
-| `Node.js`            | 20.8.0 (LTS) |
+| `Node.js`            | 20.9.0 (LTS) |
 | `NPM`            | 10.1.0 |
 | `YARN`            | 1.22.19 |
 
