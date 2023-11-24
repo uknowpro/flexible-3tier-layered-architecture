@@ -4,7 +4,7 @@ services:
     container_name: layered_nestjs_server
     build:
       context: ../.
-      dockerfile: ./infra/local.Dockerfile
+      dockerfile: ./local.Dockerfile
     depends_on:
       - nestjs_server_rdb
     environment:

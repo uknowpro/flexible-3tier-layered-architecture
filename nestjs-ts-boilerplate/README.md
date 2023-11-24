@@ -5,7 +5,7 @@
 
 | Type                  | Version              |
 |:---------------------|:-----------------|
-| `OS`                 | Linux(Ubuntu 22.04) |
+| `OS`                 | maybe Linux(Ubuntu 22.04) |
 | `Docker`             | 24.0.5 |
 | `Docker-compose`     | 1.29.2 |
 | `Python`             | 3.10.12
@@ -17,6 +17,11 @@
 ```
 $ yarn install
 $ yarn start:local
+```
+
+### Generate Swagger JSON file
+```bash
+$ yarn gen:swagger
 ```
 
 ## Run on docker
